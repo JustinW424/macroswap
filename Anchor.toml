@@ -1,0 +1,15 @@
+[programs.localnet]
+macroswap = "FqwbZ8hJwL2uaANW61tXA7JX6KUQq4THhaeUb2AXnMPj"
+
+[programs.devnet]
+macroswap = "FqwbZ8hJwL2uaANW61tXA7JX6KUQq4THhaeUb2AXnMPj"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/riomain/.config/solana/id.json"
+
+[scripts]
+test = "ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
